@@ -1,0 +1,76 @@
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.el6.x86_64
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.99.x86_64/jre
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_99-mockbuild_2016_03_25_02_19-b00
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+Apr 13, 2016 6:08:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+Apr 13, 2016 6:08:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Apr 13, 2016 6:08:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Apr 13, 2016 6:08:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Apr 13, 2016 6:08:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5279 ms
+Apr 13, 2016 6:08:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 13, 2016 6:08:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+Apr 13, 2016 6:08:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+Apr 13, 2016 6:08:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 2,976 ms
+Apr 13, 2016 6:08:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+Apr 13, 2016 6:08:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 3,068 ms
+Apr 13, 2016 6:08:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+Apr 13, 2016 6:08:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 422 ms
+Apr 13, 2016 6:08:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+Apr 13, 2016 6:08:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 310 ms
+Apr 13, 2016 6:08:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+Apr 13, 2016 6:08:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 206 ms
+Apr 13, 2016 6:08:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+Apr 13, 2016 6:08:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 689 ms
+Apr 13, 2016 6:08:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Apr 13, 2016 6:08:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Apr 13, 2016 6:08:12 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8042 ms

@@ -1,0 +1,158 @@
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.101.x86_64/jre
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-mockbuild_2016_04_21_13_21-b00
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 04, 2016 7:40:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+May 04, 2016 7:40:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+May 04, 2016 7:40:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+May 04, 2016 7:40:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+May 04, 2016 7:40:05 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 04, 2016 7:40:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 04, 2016 7:40:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 04, 2016 7:40:06 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 7254 ms
+May 04, 2016 7:40:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 04, 2016 7:40:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+May 04, 2016 7:40:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+May 04, 2016 7:40:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 2,551 ms
+May 04, 2016 7:40:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+May 04, 2016 7:40:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 3,902 ms
+May 04, 2016 7:40:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+May 04, 2016 7:40:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 220 ms
+May 04, 2016 7:40:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay has finished in 301 ms
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 245 ms
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift has finished in 280 ms
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app has finished in 157 ms
+May 04, 2016 7:40:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest
+May 04, 2016 7:40:33 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 04, 2016 7:40:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest has finished in 41,580 ms
+May 04, 2016 7:40:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer
+May 04, 2016 7:41:18 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 04, 2016 7:41:41 PM org.apache.catalina.session.StandardManager startInternal
+SEVERE: Exception loading sessions from persistent storage
+java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1421)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:718)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:833)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1609)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1521)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1779)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1353)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:373)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1612)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1075)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:282)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:202)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:489)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5600)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1263)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1975)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 04, 2016 7:41:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer has finished in 44,479 ms
+May 04, 2016 7:41:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal
+May 04, 2016 7:41:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal has finished in 362 ms
+May 04, 2016 7:41:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+May 04, 2016 7:41:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 423 ms
+May 04, 2016 7:41:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal
+May 04, 2016 7:41:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal has finished in 467 ms
+May 04, 2016 7:41:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+May 04, 2016 7:41:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 2,050 ms
+May 04, 2016 7:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 04, 2016 7:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 04, 2016 7:41:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 97731 ms
+May 04, 2016 9:10:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 04, 2016 9:10:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 04, 2016 9:10:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 04, 2016 9:10:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-rest] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 04, 2016 9:10:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-explorer] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 04, 2016 9:10:29 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/activiti-explorer] appears to have started a thread named [H2 Close Delay ACTIVITI] but has failed to stop it. This is very likely to create a memory leak.
+May 04, 2016 9:10:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 04, 2016 9:10:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 04, 2016 9:10:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 04, 2016 9:10:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

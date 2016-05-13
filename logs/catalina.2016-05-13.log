@@ -1,0 +1,1230 @@
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.101.x86_64/jre
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-mockbuild_2016_04_21_13_21-b00
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:28:06 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+May 13, 2016 11:28:06 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 13, 2016 11:28:06 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:28:07 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:28:07 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3399 ms
+May 13, 2016 11:28:07 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 13, 2016 11:28:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+May 13, 2016 11:28:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+May 13, 2016 11:28:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 2,426 ms
+May 13, 2016 11:28:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit
+May 13, 2016 11:28:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit has finished in 997 ms
+May 13, 2016 11:28:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+May 13, 2016 11:28:11 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 1,349 ms
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 331 ms
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay has finished in 485 ms
+May 13, 2016 11:28:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 304 ms
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift has finished in 252 ms
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app has finished in 309 ms
+May 13, 2016 11:28:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest
+May 13, 2016 11:28:22 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:28:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest has finished in 23,996 ms
+May 13, 2016 11:28:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer
+May 13, 2016 11:28:47 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:29:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer has finished in 24,521 ms
+May 13, 2016 11:29:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal
+May 13, 2016 11:29:02 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:29:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal has finished in 472 ms
+May 13, 2016 11:29:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+May 13, 2016 11:29:03 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:29:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 801 ms
+May 13, 2016 11:29:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal
+May 13, 2016 11:29:04 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:29:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal has finished in 1,489 ms
+May 13, 2016 11:29:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+May 13, 2016 11:29:06 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:29:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 1,214 ms
+May 13, 2016 11:29:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:29:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:29:06 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 59312 ms
+May 13, 2016 11:29:53 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 13, 2016 11:29:53 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:29:53 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:29:53 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 13, 2016 11:29:54 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-rest] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:29:54 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-explorer] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:29:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:29:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:29:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:29:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:29:54 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.lang.ThreadGroup.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.h2.engine.DatabaseCloser.reset(DatabaseCloser.java:43)
+	at org.h2.engine.Database.close(Database.java:1155)
+	at org.h2.engine.DatabaseCloser.run(DatabaseCloser.java:80)
+
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.101.x86_64/jre
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-mockbuild_2016_04_21_13_21-b00
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+May 13, 2016 11:30:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 13, 2016 11:30:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:30:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1709 ms
+May 13, 2016 11:30:03 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 13, 2016 11:30:03 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+May 13, 2016 11:30:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+May 13, 2016 11:30:05 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 2,235 ms
+May 13, 2016 11:30:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit
+May 13, 2016 11:30:06 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit has finished in 937 ms
+May 13, 2016 11:30:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+May 13, 2016 11:30:08 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 1,375 ms
+May 13, 2016 11:30:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+May 13, 2016 11:30:08 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 372 ms
+May 13, 2016 11:30:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay
+May 13, 2016 11:30:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay has finished in 568 ms
+May 13, 2016 11:30:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+May 13, 2016 11:30:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 335 ms
+May 13, 2016 11:30:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift
+May 13, 2016 11:30:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift has finished in 308 ms
+May 13, 2016 11:30:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app
+May 13, 2016 11:30:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app has finished in 172 ms
+May 13, 2016 11:30:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest
+May 13, 2016 11:30:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.101.x86_64/jre
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-mockbuild_2016_04_21_13_21-b00
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:30:31 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+May 13, 2016 11:30:31 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 13, 2016 11:30:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:30:33 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+May 13, 2016 11:30:33 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+May 13, 2016 11:30:33 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:30:33 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+May 13, 2016 11:30:33 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+May 13, 2016 11:30:33 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 6910 ms
+May 13, 2016 11:30:33 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 13, 2016 11:30:33 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+May 13, 2016 11:30:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+May 13, 2016 11:30:39 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:30:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest has finished in 29,755 ms
+May 13, 2016 11:30:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer
+May 13, 2016 11:30:46 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.101.x86_64/jre
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-mockbuild_2016_04_21_13_21-b00
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+May 13, 2016 11:31:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 13, 2016 11:31:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+May 13, 2016 11:31:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:31:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:31:05 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+May 13, 2016 11:31:05 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 13, 2016 11:31:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:31:05 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+May 13, 2016 11:31:05 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+May 13, 2016 11:31:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:31:06 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+May 13, 2016 11:31:06 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:821)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:434)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+May 13, 2016 11:31:06 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 7818 ms
+May 13, 2016 11:31:06 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 13, 2016 11:31:06 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+May 13, 2016 11:31:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+May 13, 2016 11:31:14 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [34,634] milliseconds.
+May 13, 2016 11:31:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 41,106 ms
+May 13, 2016 11:31:15 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit
+May 13, 2016 11:31:15 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:17 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [174] milliseconds.
+May 13, 2016 11:31:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 11,389 ms
+May 13, 2016 11:31:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit
+May 13, 2016 11:31:21 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit has finished in 6,853 ms
+May 13, 2016 11:31:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+May 13, 2016 11:31:23 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit has finished in 5,807 ms
+May 13, 2016 11:31:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+May 13, 2016 11:31:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer has finished in 46,540 ms
+May 13, 2016 11:31:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal
+May 13, 2016 11:31:30 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal has finished in 4,362 ms
+May 13, 2016 11:31:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+May 13, 2016 11:31:34 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:37 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 6,880 ms
+May 13, 2016 11:31:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal
+May 13, 2016 11:31:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 16,500 ms
+May 13, 2016 11:31:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+May 13, 2016 11:31:41 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:42 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal has finished in 4,359 ms
+May 13, 2016 11:31:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+May 13, 2016 11:31:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 19,294 ms
+May 13, 2016 11:31:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+May 13, 2016 11:31:44 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 5,897 ms
+May 13, 2016 11:31:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay
+May 13, 2016 11:31:47 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 4,122 ms
+May 13, 2016 11:31:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay
+May 13, 2016 11:31:48 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay has finished in 3,875 ms
+May 13, 2016 11:31:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+May 13, 2016 11:31:50 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 8,049 ms
+May 13, 2016 11:31:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:31:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:31:50 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 107141 ms
+May 13, 2016 11:31:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay has finished in 4,040 ms
+May 13, 2016 11:31:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+May 13, 2016 11:31:52 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 3,640 ms
+May 13, 2016 11:31:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift
+May 13, 2016 11:31:54 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 2,530 ms
+May 13, 2016 11:31:54 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift
+May 13, 2016 11:31:56 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift has finished in 4,306 ms
+May 13, 2016 11:31:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app
+May 13, 2016 11:31:57 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift has finished in 3,188 ms
+May 13, 2016 11:31:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app
+May 13, 2016 11:31:59 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:31:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app has finished in 2,892 ms
+May 13, 2016 11:31:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest
+May 13, 2016 11:31:59 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:32:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app has finished in 2,641 ms
+May 13, 2016 11:32:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest
+May 13, 2016 11:32:36 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:32:40 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:35:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest has finished in 214,086 ms
+May 13, 2016 11:35:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer
+May 13, 2016 11:35:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest has finished in 219,693 ms
+May 13, 2016 11:35:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer
+May 13, 2016 11:36:04 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:36:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer has finished in 129,196 ms
+May 13, 2016 11:37:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal
+May 13, 2016 11:37:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer has finished in 125,199 ms
+May 13, 2016 11:37:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal
+May 13, 2016 11:37:45 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:45 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal has finished in 1,097 ms
+May 13, 2016 11:37:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal has finished in 2,207 ms
+May 13, 2016 11:37:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+May 13, 2016 11:37:45 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+May 13, 2016 11:37:46 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:46 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 1,423 ms
+May 13, 2016 11:37:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal
+May 13, 2016 11:37:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 1,469 ms
+May 13, 2016 11:37:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal
+May 13, 2016 11:37:48 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:48 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal has finished in 1,539 ms
+May 13, 2016 11:37:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+May 13, 2016 11:37:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal has finished in 1,531 ms
+May 13, 2016 11:37:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+May 13, 2016 11:37:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:37:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 3,064 ms
+May 13, 2016 11:37:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 3,087 ms
+May 13, 2016 11:37:51 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 405663 ms
+May 13, 2016 11:37:51 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 438091 ms
+May 13, 2016 11:37:51 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:781)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:727)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+May 13, 2016 11:37:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:37:51 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:781)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:727)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+May 13, 2016 11:37:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:37:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:37:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 13, 2016 11:37:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:37:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-rest] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-rest] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-explorer] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-explorer] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/activiti-explorer] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Actual transaction active]) and a value of type [java.lang.Boolean] (value [true]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/activiti-explorer] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Actual transaction active]) and a value of type [java.lang.Boolean] (value [true]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4a84b8cf]) and a value of type [java.util.Stack] (value [[org.activiti.engine.impl.interceptor.CommandContext@4f814441]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@56d9ae7a]) and a value of type [java.util.Stack] (value [[org.activiti.engine.impl.interceptor.CommandContext@6d4df821]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transaction synchronizations]) and a value of type [java.util.LinkedHashSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transaction synchronizations]) and a value of type [java.util.LinkedHashSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2fa8302e]) and a value of type [java.util.Stack] (value [[org.activiti.spring.SpringProcessEngineConfiguration@4af33473]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@19dd7697]) and a value of type [java.util.Stack] (value [[org.activiti.spring.SpringProcessEngineConfiguration@1a94c0c5]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@24f89076]) and a value of type [org.apache.ibatis.executor.ErrorContext] (value [
+### The error may involve org.activiti.engine.impl.persistence.entity.EvenLogEntryEntity.insertEventLogEntry-Inline
+### The error occurred while setting parameters
+### SQL: insert into ACT_EVT_LOG(TYPE_, PROC_DEF_ID_, PROC_INST_ID_, EXECUTION_ID_, TASK_ID_, TIME_STAMP_, USER_ID_, DATA_, LOCK_OWNER_, LOCK_TIME_, IS_PROCESSED_)     values (       ?,        ?,        ?,       ?,       ?,          ?,        ?,       ?,       ?,       ?,       ?      )]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1bfbd325]) and a value of type [org.apache.ibatis.executor.ErrorContext] (value [
+### SQL: insert into ACT_RU_TASK (ID_, REV_, NAME_, PARENT_TASK_ID_, DESCRIPTION_, PRIORITY_, CREATE_TIME_, OWNER_,                       ASSIGNEE_, DELEGATION_, EXECUTION_ID_, PROC_INST_ID_, PROC_DEF_ID_, TASK_DEF_KEY_, DUE_DATE_, CATEGORY_, SUSPENSION_STATE_, TENANT_ID_, FORM_KEY_)     values (?,             1,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?,             ?            )]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalMapForLeaks
+SEVERE: The web application [/activiti-explorer] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Transactional resources]) and a value of type [java.util.HashMap] (value [{org.apache.commons.dbcp.BasicDataSource@71d0576b=org.springframework.jdbc.datasource.ConnectionHolder@31e3307d}]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load META-INF/services/javax.xml.datatype.DatatypeFactory.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.activiti.engine.JobNotFoundException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.activiti.engine.impl.interceptor.CommandContext.close(CommandContext.java:163)
+	at org.activiti.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:66)
+	at org.activiti.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:47)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.activiti.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:45)
+	at org.activiti.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:31)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:40)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:35)
+	at org.activiti.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:69)
+	at org.activiti.explorer.demo.DemoDataGenerator$1.run(DemoDataGenerator.java:252)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.ThrowableInformation.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:165)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.Log4jLoggerAdapter.error(Log4jLoggerAdapter.java:575)
+	at org.activiti.engine.impl.interceptor.CommandContext.exception(CommandContext.java:232)
+	at org.activiti.engine.impl.interceptor.CommandContext.close(CommandContext.java:177)
+	at org.activiti.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:66)
+	at org.activiti.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:47)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.activiti.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:45)
+	at org.activiti.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:31)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:40)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:35)
+	at org.activiti.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:69)
+	at org.activiti.explorer.demo.DemoDataGenerator$1.run(DemoDataGenerator.java:252)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load META-INF/services/javax.xml.datatype.DatatypeFactory.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.activiti.engine.JobNotFoundException.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.activiti.engine.impl.interceptor.CommandContext.close(CommandContext.java:163)
+	at org.activiti.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:66)
+	at org.activiti.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:47)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.activiti.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:45)
+	at org.activiti.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:31)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:40)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:35)
+	at org.activiti.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:69)
+	at org.activiti.explorer.demo.DemoDataGenerator$1.run(DemoDataGenerator.java:252)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 13, 2016 11:37:53 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load org.apache.log4j.spi.ThrowableInformation.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:165)
+	at org.apache.log4j.Category.forcedLog(Category.java:391)
+	at org.apache.log4j.Category.log(Category.java:856)
+	at org.slf4j.impl.Log4jLoggerAdapter.error(Log4jLoggerAdapter.java:575)
+	at org.activiti.engine.impl.interceptor.CommandContext.exception(CommandContext.java:232)
+	at org.activiti.engine.impl.interceptor.CommandContext.close(CommandContext.java:177)
+	at org.activiti.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:66)
+	at org.activiti.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:47)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.activiti.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:45)
+	at org.activiti.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:31)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:40)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:35)
+	at org.activiti.engine.impl.RuntimeServiceImpl.startProcessInstanceByKey(RuntimeServiceImpl.java:69)
+	at org.activiti.explorer.demo.DemoDataGenerator$1.run(DemoDataGenerator.java:252)
+	at java.lang.Thread.run(Thread.java:745)
+
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:37:54 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:37:54 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.lang.ThreadGroup.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.h2.engine.DatabaseCloser.reset(DatabaseCloser.java:43)
+	at org.h2.engine.Database.close(Database.java:1155)
+	at org.h2.engine.DatabaseCloser.run(DatabaseCloser.java:80)
+
+May 13, 2016 11:37:54 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.lang.ThreadGroup.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.h2.engine.DatabaseCloser.reset(DatabaseCloser.java:43)
+	at org.h2.engine.Database.close(Database.java:1155)
+	at org.h2.engine.DatabaseCloser.run(DatabaseCloser.java:80)
+
+May 13, 2016 11:46:00 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 13, 2016 11:46:00 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:46:00 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:46:00 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 13, 2016 11:46:00 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/pranay] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 13, 2016 11:46:01 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-rest] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:46:01 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-explorer] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:46:01 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/PublicAudit] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 11:46:01 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/PublicAudit] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+May 13, 2016 11:46:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:46:01 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:46:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:46:01 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:46:01 AM org.apache.catalina.loader.WebappClassLoaderBase loadClass
+INFO: Illegal access: this web application instance has been stopped already.  Could not load java.lang.ThreadGroup.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+java.lang.IllegalStateException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1747)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1705)
+	at org.h2.engine.DatabaseCloser.reset(DatabaseCloser.java:43)
+	at org.h2.engine.Database.close(Database.java:1155)
+	at org.h2.engine.DatabaseCloser.run(DatabaseCloser.java:80)
+
+May 13, 2016 11:46:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.67
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Dec 7 2015 13:07:11 UTC
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.67.0
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.101.x86_64/jre
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_101-mockbuild_2016_04_21_13_21-b00
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /var/local/apache-tomcat-7.0.67
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/local/apache-tomcat-7.0.67/conf/logging.properties
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/var/local/apache-tomcat-7.0.67/endorsed
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/var/local/apache-tomcat-7.0.67
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/var/local/apache-tomcat-7.0.67/temp
+May 13, 2016 11:46:04 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 13, 2016 11:46:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:46:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3119 ms
+May 13, 2016 11:46:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 13, 2016 11:46:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.67
+May 13, 2016 11:46:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager
+May 13, 2016 11:46:06 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/host-manager has finished in 2,383 ms
+May 13, 2016 11:46:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit
+May 13, 2016 11:46:08 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/PublicAudit has finished in 975 ms
+May 13, 2016 11:46:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/examples
+May 13, 2016 11:46:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/examples has finished in 1,323 ms
+May 13, 2016 11:46:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/docs
+May 13, 2016 11:46:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/docs has finished in 340 ms
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/pranay has finished in 467 ms
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/manager
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/manager has finished in 338 ms
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal - Openshift has finished in 181 ms
+May 13, 2016 11:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app
+May 13, 2016 11:46:11 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-mobile-app has finished in 231 ms
+May 13, 2016 11:46:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest
+May 13, 2016 11:46:18 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-rest has finished in 18,663 ms
+May 13, 2016 11:46:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer
+May 13, 2016 11:46:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/activiti-explorer has finished in 18,332 ms
+May 13, 2016 11:46:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal
+May 13, 2016 11:46:48 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/woodlodge-portal has finished in 307 ms
+May 13, 2016 11:46:48 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT
+May 13, 2016 11:46:49 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/ROOT has finished in 548 ms
+May 13, 2016 11:46:49 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal
+May 13, 2016 11:46:49 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/samphire-portal has finished in 1,063 ms
+May 13, 2016 11:46:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM
+May 13, 2016 11:46:50 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 13, 2016 11:46:50 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/local/apache-tomcat-7.0.67/webapps/CRM has finished in 661 ms
+May 13, 2016 11:46:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 13, 2016 11:46:50 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 13, 2016 11:46:50 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 46177 ms
+May 13, 2016 12:05:38 PM org.apache.catalina.util.LifecycleBase stop
+INFO: The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CRM]] after stop() had already been called. The second call will be ignored.
+May 13, 2016 12:05:38 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/CRM]
+May 13, 2016 12:05:43 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-explorer] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 12:05:44 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/activiti-explorer]
+May 13, 2016 12:05:56 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/pranay]
+May 13, 2016 12:06:01 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/woodlodge-portal]
+May 13, 2016 12:06:13 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/woodlodge-mobile-app]
+May 13, 2016 12:06:17 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/samphire-portal - Openshift]
+May 13, 2016 12:07:49 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/samphire-portal]
+May 13, 2016 12:07:52 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/activiti-rest] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 13, 2016 12:07:52 PM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/activiti-rest]
