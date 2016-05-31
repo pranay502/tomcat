@@ -42,3 +42,5 @@ May 13, 2016 12:07:52 PM org.apache.catalina.core.ApplicationContext log
 INFO: HTMLManager: undeploy: Undeploying web application at '/activiti-rest'
 May 13, 2016 12:07:52 PM org.apache.catalina.core.ApplicationContext log
 INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+May 13, 2016 7:58:23 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
